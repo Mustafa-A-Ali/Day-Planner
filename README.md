@@ -11,6 +11,6 @@ Key Features:
 
 - Client-side local storage to allow the changes to the time blocks to persist upon reloading of the page.
 
-[Deployed Link]()
+[Deployed Link](https://mus-ali1.github.io/Day-Planner/)
 
 [Git Hub Repo](https://github.com/mus-ali1/Day-Planner)

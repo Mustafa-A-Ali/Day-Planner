@@ -34,14 +34,16 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .hour {
-  background-color: white;
+  background-color:white;
   color:black;
   border-top: 1px dashed #000000;
+  padding-top: 35px;
   margin-bottom: 0px;
-  margin-top: 0px;
 }
 
 .past {

@@ -14,3 +14,5 @@ Key Features:
 [Deployed Link](https://mus-ali1.github.io/Day-Planner/)
 
 [Git Hub Repo](https://github.com/mus-ali1/Day-Planner)
+
+![website image](./assets/Images/Screenshot.png)

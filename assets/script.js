@@ -19,7 +19,6 @@ function setPlanner() {
 
     $(".time-blocks").each(function () {
         var id = $(this).attr("id");
-        console.log(id);
         var description = localStorage.getItem(id);
 
         if (description !== null) {
@@ -36,7 +35,7 @@ saveBtn.on("click", function () {
     var description = $(this).siblings(".description").val();
     console.log(description, time)
 
-    localStorage.setItem(time, description);
-});
+    localStorage.setItem(time, description)
 
+});
 

@@ -18,11 +18,12 @@ date.text(moment().format("MMMM Do YYYY, h:mm a"));
 function setPlanner() {
 
     $(".time-blocks").each(function () {
-        var id = $(this).attr("id");
+        var id = $(this).parent().attr("id");
         var description = localStorage.getItem(id);
+        console.log(id);
 
         if (description !== null) {
-            $(this).children(".description").val(description);
+            $(this).siblings(".description").val(description);
         }
     });
 }

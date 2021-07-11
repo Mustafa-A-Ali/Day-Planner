@@ -20,10 +20,10 @@ function setPlanner() {
     $(".time-blocks").each(function () {
         var id = $(this).attr("id");
         console.log(id);
-        var schedule = localStorage.getItem(id);
+        var description = localStorage.getItem(id);
 
-        if (schedule !== null) {
-            $(this).children(".description").val(schedule);
+        if (description !== null) {
+            $(this).children(".description").val(description);
         }
     });
 }
@@ -33,9 +33,10 @@ var saveBtn = $(".saveBtn");
 
 saveBtn.on("click", function () {
     var time = $(this).parent().attr("id");
-    var schedule = $(this).siblings(".description").val();
+    var description = $(this).siblings(".description").val();
+    console.log(description, time)
 
-    localStorage.setItem(time, schedule);
+    localStorage.setItem(time, description);
 });
 
 
